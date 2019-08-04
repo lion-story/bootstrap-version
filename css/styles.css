@@ -1,0 +1,17 @@
+/*Style Notes
+Use rem for font sizes to stay consistent with Bootstrap
+Important tags seem to be required to overwrite bootstrap css
+*/
+/*General Style Changes*/
+body{
+	color: #292663 !important;
+}
+/*Button adjustments*/
+.btn{
+	color:#292663 !important;
+}
+.btn-primary{
+	color:#292663;
+	border-color: #faab21 !important;
+	background-color: #faab21 !important;
+}
