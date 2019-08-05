@@ -16,7 +16,6 @@ h1,h2,h3,h4,h5{
 a, a:hover{
 	color: #292663 !important;
 	outline: none;
-	text-decoration: none !important;
 }
 img {
 	max-height: 700px;
@@ -108,4 +107,7 @@ background-color: #faab21;
 .footer-section > p{
 	margin: 0;
 	padding: 0 !important;
+}
+.footer-section > a{
+	color: #faab21 !important;
 }
