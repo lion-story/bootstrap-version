@@ -35,7 +35,6 @@ img {
 }
 .header-title {
 	background-color: rgba(250,253,254,0.3) !important;
-	line-height: 0;
 	width: 100%;
 	padding: 20px;
 	margin: 0;
