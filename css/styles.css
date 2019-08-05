@@ -28,7 +28,19 @@ img {
 	outline: none !important;
 }
 /*Header Adjustments*/
-
+.header-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-title {
+	background-color: rgba(250,253,254,0.3) !important;
+	line-height: 0;
+	width: 100%;
+	padding: 20px;
+	margin: 0;
+	text-align: center;
+}
 /*Button adjustments*/
 .btn{
 	color:#292663 !important;
