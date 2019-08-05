@@ -4,7 +4,29 @@ Important tags seem to be required to overwrite bootstrap css
 */
 /*General Style Changes*/
 body{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2rem ;
 	color: #292663 !important;
+	background-color:  #fafdfe !important;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(0,0,0,0) !important;
+}
+a, a:hover{
+	color: #292663 !important;
+	outline: none;
+	text-decoration: none !important;
+}
+img {
+	max-height: 700px;
+	object-fit: cover;
+}
+/*Navbar*/
+.navbar-toggler{
+	background-color: #292663 !important;
+	color: #292663 !important;
+	outline: none !important;
 }
 /*Button adjustments*/
 .btn{
@@ -14,4 +36,76 @@ body{
 	color:#292663;
 	border-color: #faab21 !important;
 	background-color: #faab21 !important;
+}
+/*Card changes*/
+.card{
+	border: none !important;
+	border-color: #fafdfe;
+	background-color:  #fafdfe !important;
+	border-radius: 0 !important;
+	background-clip: unset !important;
+
+	margin: 0 auto;
+	float: none;
+}
+.card-img{
+	border-radius: 0 !important;
+}
+.card-header{
+	border-bottom: rgba(0,0,0,0) !important;
+}
+/*Homepage Carousel*/
+.carousel-tabs {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.carousel-tabs > a {
+	flex: 1 1 auto;
+	text-decoration: none;
+	
+	text-align: center;
+}
+.carousel-tabs > a:hover {
+	background-color: #faab21;
+}
+.tab-pane .active{
+background-color: #faab21;
+}
+.tab-pane{
+	margin: 5px;
+}
+
+/*About Page general*/
+.proverb {
+	margin: 5%;
+}
+#team {
+	margin-top: 4% !important;
+	margin-bottom: 3% !important;
+}
+/*About Page Bios*/
+.profile {
+	margin: 5%;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+/*Global Footer*/
+.footer{
+	color: #faab21;
+	background-color: #292663;
+	margin-top: 10px;
+}
+.footer-section {
+	display: flex;
+	height: 50px;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.footer-section > p{
+	margin: 0;
+	padding: 0 !important;
 }
