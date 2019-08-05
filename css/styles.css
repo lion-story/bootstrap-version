@@ -21,6 +21,9 @@ img {
 	max-height: 700px;
 	object-fit: cover;
 }
+.container {
+	margin: 4rem;
+}
 /*Navbar*/
 .navbar-toggler{
 	background-color: #292663 !important;
@@ -123,4 +126,12 @@ background-color: #faab21;
 }
 .footer-section > a{
 	color: #faab21 !important;
+}
+
+/*Resources Page*/
+.books-section > a {
+	margin-bottom: 3rem;
+}
+.books-section > h3 {
+	margin-bottom: 4rem;
 }
