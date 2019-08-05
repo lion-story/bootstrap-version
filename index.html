@@ -6,7 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!--Bootstrap CSS-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel='stylesheet' href='css/styles.css'
+		<link rel='stylesheet' href='css/styles.css'>
+		<!--Font Awesome-->
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<!--Jquery, Popper, Bootstrap JS-->
 <!--
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -14,37 +16,37 @@
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<script src='js/index.js'></script>
+		<script src='/js/index.js'></script>
 
 		<title>Home</title>
 	</head>
 
 	<body>
 		<!--Loading navbar through jquery-->
-		<div class='navigation'></div>
+		<div class='navigation'></div> 
 		<!--Header/Hero-->
 		<div class='card'>
-			<img src='img/stock-photos/LS-home-page.jpeg' class='card-img'>
+			<img src='/img/stock-photos/LS-home-page.jpeg' class='card-img'>
 			<div class='card-img-overlay'>
-				<h2 class='card-title'>Tell your story. Heal the village</h5>
-				<p class='card-text'>Lion’s Story prepares individuals and organizations to navigate and resolve racially charged situations using research-based strategies.</p>
+				<h2 class='card-title header-title'>Tell your story. Heal the village</h2>
+				<p class='card-text header-text'>Lion’s Story prepares individuals and organizations to navigate and resolve racially charged situations using research-based strategies.</p>
 			</div>
 		</div>
 		<!--End of Header/Hero-->
 		<!--Services Section-->
-		<div class='services-header m-4'>
+		<div class='services-header container'>
 			<h2 class='text-center'>Services</h2>
 			<p class='text-center'>
 				Lion’s Story develops and focuses on racial literacy via three types of services: foundational training, consulting and assessment.
-				Our services are facilitated by clinicians, therapists, diversity & inclusion specialists, administrators and thought leaders in the field.
+				<br>Our services are facilitated by clinicians, therapists, diversity & inclusion specialists, administrators and thought leaders in the field.
 			</p>
 		</div>
 	<div class='row m-5'>
 			<!--Service Cards-->
 			<!--Training-->
-		<div class='card col-sm-4 ' style='width: 18rem;'>
+		<div class='card col-md-4 col-sm-12 ' style='width: 18rem;'>
 			<h4 class='card-header text-center'>Training</h4>
-			<img src='img/stock-photos/training-home.jpeg' class='card-img w-100'>
+			<img src='/img/stock-photos/training-home.jpeg' class='card-img w-100'>
 			<div class='card-body'>
 				<p class='card-text text-center'>Trainings are the primary medium with which we introduce racial literacy and build skills in people and organizations.</p>
 				<div class='text-center'>
@@ -53,9 +55,9 @@
 			</div>
 		</div>
 			<!--Consulting-->
-		<div class='card col-sm-4 ' style='width: 18rem;'>
+		<div class='card col-md-4 col-sm-12 ' style='width: 18rem;'>
 			<h4 class='card-header text-center'>Consulting</h4>
-			<img src='img/stock-photos/consulting.jpeg' class='card-img w-100'>
+			<img src='/img/stock-photos/consulting.jpeg' class='card-img w-100'>
 			<div class='card-body'>
 				<p class='card-text text-center'>We consult with organizations who have participated in our trainings (or are planning to do so) and are willing to commit stakeholders, time and resources in order to become more racially literate. </p>
 				<div class='text-center'>
@@ -64,36 +66,36 @@
 			</div>
 		</div>
 			<!--Assessments-->
-		<div class='card col-sm-4 ' style='width: 18rem;'>
+		<div class='card col-md-4 col-sm-12 ' style='width: 18rem;'>
 			<h4 class='card-header text-center'>Assessments</h4>
-			<img src='img/stock-photos/assessment-home.jpeg' class=' card-img w-100'>
+			<img src='/img/stock-photos/assessment-home.jpeg' class=' card-img w-100'>
 			<div class='card-body'>
-				<p class='card-text text-center'>We assess an organization’s current racial literacy climate and skills as well as continue to assess their progress and development as well. </p>
+				<p class='card-text text-center'>We assess an organization’s current racial literacy climate and skills as well as continue to assess their progress and development as well. For more information about assessments, please contact us directly.</p>
 				<div class='text-center'>
-					<a href='' class='btn btn-primary'>More Info</a>
+					<button class='btn btn-primary' data-paperform-id="anhxipky" data-popup-button="1">Contact Us</button><script>(function() { var script = document.createElement('script'); script.src = "https://paperform.co/__embed";document.body.appendChild(script); })()</script>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!--End of Services Section-->
 	<!--Stevenson Quote-->
-	<div class='card' style='background-color: #faab21'>
-		<p class='card-text text-center'> “In a society that has historically thrived from creating racially dehumanizing narratives and practices,
+	<div class='card mt-5 mb-5 p-4' style='background-color: #faab21 !important;'>
+		<p class='card-text text-center' style='font-style: italic;'> “In a society that has historically thrived from creating racially dehumanizing narratives and practices,
 			telling one’s racial story may not only be disruptive, but transformational”</p>
-		<h5 class=' card-header text-center'>Dr. Howard C. Stevenson</h4>
+		<h5 class=' card-header text-center'>Dr. Howard C. Stevenson</h5>
 	</div>
 	<!--End of Stevenson Quote-->
 	<!--Carousel Section-->
 <div class='row'>
-	<div class='card col-sm-6'>
-		<img src='img/stock-photos/consulting.jpeg' class='card-img'>
+	<div class='card col-md-6 col-sm-12'>
+		<img src='/img/stock-photos/consulting.jpeg' class='card-img'>
 	</div>
-	<div class='col-sm-6'>
-		<ul class='nav nav-tab' role='tablist'>
-			<li class='active m-3'><a href='#approach-tab' role='tab' data-toggle='tab'>Approach</a></li>
-			<li class='active m-3'><a href='#mission-tab' role='tab' data-toggle='tab'>Mission</a></li>
-			<li class='active m-3'><a href='#history-tab' role='tab' data-toggle='tab'>History</a></li>
-		</ul>
+	<div class='col-md-6 col-sm-12'>
+	<div class='carousel-tabs nav nav-tabs'>
+			<a class='navlink' href='#approach-tab' role='tab' data-toggle='tab'><h5>Approach</h5></a>
+			<a class='navlink' href='#mission-tab' role='tab' data-toggle='tab'><h5>Mission</h5></a>
+			<a class='navlink' href='#history-tab' role='tab' data-toggle='tab'><h5>History</h5></a>
+	</div>
 		<div class='tab-content'>
 			<div class='tab-pane active' id='approach-tab'>
 				<h4>Our Approach to Racial Literacy</h4>
@@ -122,11 +124,11 @@
 		<h2 class='text-center m-4'>Hear From The Village</h2>
 	</div>
 	<div class='row m-5'>
-		<div class='card col-sm-6'>
+		<div class='card col-md-6 col-sm-12'>
 			<p class='card-text text-center'>“I’ve been in a lot of racial equity trainings, and this was my favorite. It invited vulnerability and courage in a way that deepened connection and understanding of the personal implications of systemic oppression. For people with privilege (like me) it opened my heart and inspired me to take action to help dismantle these oppressive systems by simply beginning conversations about race. It also forged connections and friendship with people who are wrestling with the implications of racism and want to take action.”
 				<br>- Meghan Ryan</p>
 		</div>
-		<div class='card col-sm-6'>
+		<div class='card col-md-6'>
 			<p class='card-text text-center'>“My experience with Lion's Story helped me reflect on past and prepare for future racial encounters in a way that felt practical and productive. The Lion's Story framework around the relationship between stress, fear and physiological response makes a healthy coping strategy feel attainable and applicable to everyday encounters. I am glad I was able to fully participate in this training, which I think will be an invaluable resource for shifting mindset, developing personal coping strategies and, most importantly, widening the circle of understanding as we navigate this world.”</p>
 		</div>
 	</div>
@@ -138,7 +140,11 @@
 			<!--Team-->
 			<!--Howard Stevenson-->
 		<div class='card col-sm-4 ' style='width: 18rem;'>
-			<img src='img/stock-photos/training-home.jpeg' class='w-100'>
+		<a href='about.html#stevenson'>
+			<div class='text-center'>
+				<img src='/img/original/howard-stevenson.jpg' class='' style='width: 200px; height:300px;'>
+			</div>
+		</a>
 			<div class='card-body'>
 				<h4 class='card-title text-center'>Dr. Howard Stevenson</h4>
 				<h5 class='card-text text-center'>Founder</h5>
@@ -149,7 +155,11 @@
 		</div>
 			<!--Charles Adams-->
 		<div class='card col-sm-4 ' style='width: 18rem;'>
-			<img src='img/stock-photos/training-home.jpeg' class='w-100'>
+			<div class='text-center'>
+			<a href='about.html#adams'>
+				<img src='/img/original/charles-adams.JPG' class='' style='width: 200px; height:300px;'>
+			</a>
+			</div>
 			<div class='card-body'>
 				<h4 class='card-title text-center'>Charles B. Adams</h4>
 				<h5 class='card-text text-center'>Managing Partner</h5>
@@ -160,7 +170,11 @@
 		</div>
 			<!--Shamm Petros-->
 		<div class='card col-sm-4 ' style='width: 18rem;'>
-			<img src='img/stock-photos/training-home.jpeg' class='w-100'>
+			<a href='about.html#petros'>
+				<div class='text-center'>
+					<img src='/img/original/shamm-petros.jpg' class='' style='width: 200px; height:300px;'>
+				</div>
+			</a>
 			<div class='card-body'>
 				<h4 class='card-title text-center'>Shamm Petros</h4>
 				<h5 class='card-text text-center'>Partner - Learning & Evaluation</h5>
@@ -171,6 +185,8 @@
 		</div>
 	</div>
 	<!--Team End-->
+	<!--Contact Form-->
+	<div class='contact'></div>
 	<!--Footer Section-->
 	<div class='footer'></div>
 	</body>
