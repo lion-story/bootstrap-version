@@ -69,6 +69,9 @@ img {
 .card-header{
 	border-bottom: rgba(0,0,0,0) !important;
 }
+.home-hear-quote{
+	background-color: rgba(250,171,33,0.5) !important;
+}
 /*Homepage Carousel*/
 .carousel-tabs {
 	display: flex;
