@@ -69,8 +69,12 @@ img {
 .card-header{
 	border-bottom: rgba(0,0,0,0) !important;
 }
+/*Home page general*/
 .home-hear-quote{
 	background-color: rgba(250,171,33,0.5) !important;
+}
+#tell-story{
+	font-size: 2rem;
 }
 /*Homepage Carousel*/
 .carousel-tabs {
