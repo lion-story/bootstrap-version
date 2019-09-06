@@ -142,3 +142,8 @@ background-color: #faab21;
 .books-section > h3 {
 	margin-bottom: 4rem;
 }
+
+/*Services page*/
+.underline-link {
+	text-decoration: underline;
+}
